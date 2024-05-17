@@ -1,0 +1,111 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  padding: 25px;
+}
+.card-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+   box-shadow: 0px 4px 16px 0px #bfbfbf;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 23px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #0b69ff;
+  margin-bottom: 15px;
+}
+.para {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #333333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.button {
+  background-color: #0b69ff;
+  color: white;
+  font-size: 14px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  border-radius: 8px;
+  border-width: 0px;
+  padding: 6px;
+  width: 85px;
+}
+.randum-number {
+  color: #0b69ff;
+  font-size: 35px;
+  font-family: 'Roboto';
+  outline: none;
+  font-weight: 600;
+}
+@media all and (min-width:576px){
+  .bg-container {
+  padding: 45px;
+}
+.card-container {
+  border-radius: 17px;
+  padding: 35px;
+}
+.heading {
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.para {
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+.button {
+  font-size: 20px;
+  border-radius: 8px;
+  border-width: 0px;
+  padding: 9px;
+  width: 115px;
+}
+.randum-number {
+  font-size: 50px;
+}
+}
+@media all and (min-width:768px){
+  .bg-container {
+  padding: 45px;
+}
+.card-container {
+  border-radius: 17px;
+  padding: 65px;
+  
+}
+.heading {
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.para {
+  font-size: 24px;
+  margin-bottom: 35px;
+  width: 370px;
+}
+.button {
+  font-size: 20px;
+  border-radius: 8px;
+  border-width: 0px;
+  padding: 9px;
+  width: 115px;
+}
+.randum-number {
+  font-size: 60px;
+  font-weight: 800;
+}
+}
